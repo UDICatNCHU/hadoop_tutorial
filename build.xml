@@ -1,0 +1,49 @@
+<project name="world" default="jar">
+  <property name="bindir"      value="${basedir}/bin" />
+  <property name="docdir"      value="${basedir}/doc" />
+  <property name="srcdir"      value="${basedir}/src" />
+  <property name="jarname"     value="${basedir}/output.jar" />
+  <property name="hadoop-home" value="/usr/local/hadoop" />
+  <property name="hadoop-libs" value="${hadoop-home}/lib" />
+  <property name="hadoop-contrib" value="${hadoop-home}/contrib" />
+
+  <target name="compile" description="Compile all Java sources">
+    <mkdir dir="${bindir}" />
+    <javac destdir="${bindir}">
+      <src path="${srcdir}" />
+      <classpath>
+        <fileset dir="${hadoop-libs}">
+          <include name="*.jar" />
+        </fileset>
+        <fileset dir="${hadoop-home}">
+          <include name="hadoop-*.jar" />
+        </fileset>
+      </classpath>
+    </javac>
+  </target>
+
+  <target name="doc" description="Generate javadoc HTML files">
+    <mkdir dir="${docdir}" />
+    <javadoc destdir="${docdir}">
+      <classpath>
+        <fileset dir="${hadoop-libs}">
+          <include name="*.jar" />
+        </fileset>
+        <fileset dir="${hadoop-home}">
+          <include name="hadoop-*.jar" />
+        </fileset>
+      </classpath>
+      <fileset dir="${srcdir}" includes="**/*.java" />
+    </javadoc>
+  </target>
+
+  <target name="jar" depends="compile,doc" description="Package the classes into a .jar file">
+    <jar destfile="${jarname}" basedir="${bindir}" />
+  </target>
+
+  <target name="clean" description="Remove all compilation products to ensure a clean build">
+    <delete dir="${bindir}" />
+    <delete dir="${docdir}" />
+    <delete file="${jarname}" />
+  </target>
+</project>
