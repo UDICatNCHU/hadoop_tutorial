@@ -1,8 +1,5 @@
 # HadoopTutorial
 
-## pm25 資料集
-https://www.dropbox.com/s/zkn3ba7pitv83el/pm2.5Taiwan.csv?dl=0 
-
 
 我所建置的Hadoop機器：
   http://140.120.16.94:50030/jobtracker.jsp
