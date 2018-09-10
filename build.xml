@@ -9,7 +9,7 @@
 
   <target name="compile" description="Compile all Java sources">
     <mkdir dir="${bindir}" />
-    <javac destdir="${bindir}">
+    <javac destdir="${bindir}" includeAntRuntime="false">
       <src path="${srcdir}" />
       <classpath>
         <fileset dir="${hadoop-libs}">
