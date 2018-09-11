@@ -2,10 +2,10 @@
 
 
 我所建置的Hadoop機器：
-  http://140.120.16.94:50030/jobtracker.jsp
+  http://140.120.13.242:30001/cluster
 
 登入方式：
-ssh hduser@140.120.16.94 -p 16222
+ssh hduser@140.120.13.242 -p 10001
 
 Account: _hduser_
 
