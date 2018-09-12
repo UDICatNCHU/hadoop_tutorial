@@ -40,6 +40,8 @@ ssh 你的帳號@140.120.16.94 -p 16222
 nano .bashrc
 export HADOOP_HOME=/usr/local/hadoop
 export PATH=$PATH:$HADOOP_HOME/bin
+export CLASSPATH=.:$HADOOP_HOME/share/hadoop/common/hadoop-common-2.7.6.jar:$HADOOP_HOME/share/hadoop/mapreduce/hadoop-mapreduce-client-core-2.7.6.jar:$HADOOP_HOME/share/hadoop/common/lib/commons-cli-1.2.jar:$CLASSPATH
+
 ```
 ### 登出後重新登入使設定檔生效 or 使用 source 指令
 ```
