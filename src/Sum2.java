@@ -10,7 +10,7 @@ import org.apache.hadoop.mapreduce.lib.input.TextInputFormat;
 import org.apache.hadoop.mapreduce.lib.output.FileOutputFormat;
 import org.apache.hadoop.mapreduce.lib.output.TextOutputFormat;
         
-public class WordCount {
+public class Sum2 {
         
  public static class Map extends Mapper<LongWritable, Text, Text, IntWritable> {
     public void map(LongWritable key, Text value, Context context) throws IOException, InterruptedException {
@@ -18,7 +18,7 @@ public class WordCount {
         StringTokenizer tokenizer = new StringTokenizer(line);
         while (tokenizer.hasMoreTokens()) {
             String token = tokenizer.nextToken();
-            context.write(new Text(token), new IntWritable(1));
+            context.write(new Text("what ever you like"), new IntWritable(Integer.parseInt(token)));
         }
     }
  } 
@@ -38,7 +38,7 @@ public class WordCount {
  public static void main(String[] args) throws Exception {
     Configuration conf = new Configuration();
         
-    Job job = new Job(conf, "wordcount");
+        Job job = new Job(conf, "wordcount");
     
     job.setOutputKeyClass(Text.class);
     job.setOutputValueClass(IntWritable.class);
