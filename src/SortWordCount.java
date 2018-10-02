@@ -48,8 +48,7 @@ public class SortWordCount {
         StringTokenizer tokenizer = new StringTokenizer(line);
             String token1 = tokenizer.nextToken();
             String token2 = tokenizer.nextToken();
-            int token1_int_value=Integer.parseInt(token2);
-            context.write(new IntWritable(token1_int_value), new Text(token1));
+            context.write(new IntWritable(Integer.parseInt(token2)), new Text(token1));
         
     }
  }
