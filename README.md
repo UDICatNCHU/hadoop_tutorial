@@ -85,7 +85,7 @@ hadoop fs -get hdfs_file_name local_file_name
 
 hadoop jar jar檔 類別名稱 欲處理的檔案 計算完後結果存放之處
 ```
-hadoop jar example.jar wordcount hdfs_files result_stored_folder
+hadoop jar example.jar WordCount hdfs_files result_stored_folder
 
 ```
 
