@@ -2,10 +2,10 @@
 
 
 我所建置的Hadoop機器：
-  http://140.120.13.242:30001/cluster
+  http://140.120.13.242:3001/cluster
 
 登入方式：
-ssh hduser@140.120.13.242 -p 10001
+ssh hduser@140.120.13.242 -p 1001
 
 Account: _hduser_
 
