@@ -2,10 +2,10 @@
 
 
 我所建置的Hadoop機器：
-  http://140.120.13.242:3001/cluster
+  http://140.120.13.242:3000/cluster
 
 登入方式：
-ssh hduser@140.120.13.242 -p 1001
+ssh hduser@140.120.13.242 -p 1000
 
 Account: _hduser_
 
@@ -32,7 +32,7 @@ bin/hadoop fs -chown -R 你的帳號:hadoop /user/你的帳號/
 ## 使用自己帳號登入後，輸入下列設定檔
 ```
 exit
-ssh 你的帳號@140.120.13.242 -p 1001
+ssh 你的帳號@140.120.13.242 -p 1000
 ```
 ### 登入後設定環境變數檔 (.bashrc)
 ```
