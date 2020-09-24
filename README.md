@@ -26,8 +26,8 @@ sudo adduser --ingroup hadoop yao-chung
 ```
 cd /usr/local/hadoop/
 bin/hadoop fs -chmod -R 777 tmp
-bin/hadoop  fs -mkdir /user/你的帳號/
-bin/hadoop fs -chown -R 你的帳號:hadoop /user/你的帳號/
+bin/hadoop fs -mkdir /user/your_account/
+bin/hadoop fs -chown -R your_account:hadoop /user/your_account/
 ```
 
 ## 使用自己帳號登入後，輸入下列設定檔
