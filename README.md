@@ -25,7 +25,7 @@ sudo adduser --ingroup hadoop yao-chung
 
 ```
 cd /usr/local/hadoop/
-bin/hadoop  fs -mkdir -p /user/你的帳號/
+bin/hadoop fs -mkdir -p /user/你的帳號/
 bin/hadoop fs -chown -R 你的帳號:hadoop /user/你的帳號/
 ```
 
@@ -36,7 +36,7 @@ ssh 你的帳號@140.120.13.242 -p 1000
 ```
 ### 登入後設定環境變數檔 (.bashrc)
 ```
-vim .bashrc
+nano .bashrc
 export HADOOP_HOME=/usr/local/hadoop
 export PATH=$PATH:$HADOOP_HOME/bin
 export CLASSPATH=.:$HADOOP_HOME/share/hadoop/common/hadoop-common-2.7.7.jar:$HADOOP_HOME/share/hadoop/mapreduce/hadoop-mapreduce-client-core-2.7.7.jar:$HADOOP_HOME/share/hadoop/common/lib/commons-cli-1.2.jar:$CLASSPATH
