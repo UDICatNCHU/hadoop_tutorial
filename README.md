@@ -9,8 +9,8 @@ VPN: https://cc.nchu.edu.tw/sslvpn/
 
 VPN連線方式:
 1. 進入VPN網址: https://nchuvpn.twaren.net/
-2. 使用學校入口網站(email)帳密登入
-   - 帳號: 學號@mail.nchu.edu.tw
+2. 使用學校email(入口網站)帳密登入
+   - 帳號: 學號@mail.nchu.edu.tw (ex. `g110056XXX@mail.nchu.edu.tw`)
    - 密碼: 入口網站密碼
 3. 點選開始 ![](https://cc.nchu.edu.tw/sslvpn/images/win_2.jpg)
 4. 照網頁指示安裝PulseSecure軟體後就可連線，其他詳細資訊可參考 https://cc.nchu.edu.tw/sslvpn/ 安裝說明
