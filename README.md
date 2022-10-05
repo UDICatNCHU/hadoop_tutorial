@@ -60,10 +60,9 @@ export CLASSPATH=.:$HADOOP_HOME/share/hadoop/common/hadoop-common-2.7.7.jar:$HAD
 source .bashrc
 ```
 
-[![上述的操作如果不夠清楚，可觀看下面的影片檔說明](http://img.youtube.com/vi/GtlcOowVptU/0.jpg)]([https://www.youtube.com/watch?v=GtlcOowVptU](https://youtu.be/KP4E2E2yuOw) "Unity Snake Game")
 
+[![IMAGE ALT TEXT](http://img.youtube.com/vi/GtlcOowVptU/0.jpg)](https://www.youtube.com/watch?v=GtlcOowVptU "Unity Snake Game")
 
-[[!上述的操作如果不夠清楚，可觀看下面的影片檔說明](http://img.youtube.com/vi/GtlcOowVptU/0.jpg)](https://youtu.be/KP4E2E2yuOw)
 
 
 
