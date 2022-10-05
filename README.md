@@ -61,7 +61,7 @@ source .bashrc
 ```
 
 
-[![IMAGE ALT TEXT](http://img.youtube.com/vi/GtlcOowVptU/0.jpg)](https://www.youtube.com/watch?v=GtlcOowVptU "Unity Snake Game")
+[![IMAGE ALT TEXT](http://img.youtube.com/vi/GtlcOowVptU/0.jpg)](https://youtu.be/KP4E2E2yuOw "Unity Snake Game")
 
 
 
