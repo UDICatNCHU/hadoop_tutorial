@@ -60,13 +60,11 @@ export CLASSPATH=.:$HADOOP_HOME/share/hadoop/common/hadoop-common-2.7.7.jar:$HAD
 source .bashrc
 ```
 
-[![Final video of fixing issues in your code in VS Code]
-(https://img.youtube.com/vi/JLMbpiywVxQ/maxresdefault.jpg)]
-(https://www.youtube.com/watch?v=JLMbpiywVxQ)
 
 
-[!上述的操作如果不夠清楚，可觀看下面的影片檔說明]：
-https://youtu.be/KP4E2E2yuOw
+
+[[!上述的操作如果不夠清楚，可觀看下面的影片檔說明]:
+https://youtu.be/KP4E2E2yuOw]
 
 
 
