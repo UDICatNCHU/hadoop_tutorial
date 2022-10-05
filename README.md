@@ -64,7 +64,7 @@ source .bashrc
 
 
 ### 上述如果不清楚的話，可以觀看下面的影片說明：
-## https://youtu.be/KP4E2E2yuOw 
+# https://youtu.be/KP4E2E2yuOw 
 
 [![IMAGE ALT TEXT](https://i9.ytimg.com/vi/KP4E2E2yuOw/mq1.jpg?sqp=CPDA85kG&rs=AOn4CLAQyh9Z_UnYxB1bDpo4NVHaxK_d_A)](https://youtu.be/KP4E2E2yuOw "Hadoop操作")
 
@@ -116,3 +116,8 @@ hadoop jar example.jar WordCount hdfs_files result_stored_folder
 ### 關於程式執行部分，上述如果不清楚的話，可以觀看下面的影片說明：
 ## https://youtu.be/L2FheR8ByFo
 [![IMAGE ALT TEXT](https://i9.ytimg.com/vi/L2FheR8ByFo/mq2.jpg?sqp=CNTa85kG&rs=AOn4CLBwuIrEJ42Kn89oz0HtTZZTHnlyIQ&retry=5)](https://youtu.be/L2FheR8ByFo "Hadoop操作")
+
+
+
+[![Hadoop 程式編譯](https://i9.ytimg.com/vi/L2FheR8ByFo/mq2.jpg?sqp=CNTa85kG&rs=AOn4CLBwuIrEJ42Kn89oz0HtTZZTHnlyIQ&retry=5)](https://youtu.be/WPcnytCjyf8 "Hadoop 程式編譯")
+## https://youtu.be/WPcnytCjyf8
