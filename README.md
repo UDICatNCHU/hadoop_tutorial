@@ -103,7 +103,7 @@ hadoop fs -cat file_name
 hadoop fs -get hdfs_file_name local_file_name
 ```
 
-# Hadoop 程式執行
+# 如何執行Hadoop程式？
 程式執行指令如下：
 
 hadoop jar jar檔 類別名稱 欲處理的檔案 計算完後結果存放之處
@@ -114,7 +114,9 @@ hadoop jar example.jar WordCount hdfs_files result_stored_folder
 
 
 ### 關於程式執行部分，上述如果不清楚的話，可以觀看下面的影片說明：
+
 [Hadoop jar檔程式執行說明](https://youtu.be/L2FheR8ByFo)
+
 [![IMAGE ALT TEXT](https://i9.ytimg.com/vi/L2FheR8ByFo/mq2.jpg?sqp=CNTa85kG&rs=AOn4CLBwuIrEJ42Kn89oz0HtTZZTHnlyIQ&retry=5)](https://youtu.be/L2FheR8ByFo "Hadoop操作")
 
 
@@ -126,5 +128,8 @@ hadoop jar example.jar WordCount hdfs_files result_stored_folder
 ant
 ```
 
-[![Hadoop 程式編譯](https://i9.ytimg.com/vi/L2FheR8ByFo/mq2.jpg?sqp=CNTa85kG&rs=AOn4CLBwuIrEJ42Kn89oz0HtTZZTHnlyIQ&retry=5)](https://youtu.be/WPcnytCjyf8 "Hadoop 程式編譯")
 [Hadoop程式編譯說明](https://youtu.be/WPcnytCjyf8)
+
+[![Hadoop 程式編譯](https://i9.ytimg.com/vi/L2FheR8ByFo/mq2.jpg?sqp=CNTa85kG&rs=AOn4CLBwuIrEJ42Kn89oz0HtTZZTHnlyIQ&retry=5)](https://youtu.be/WPcnytCjyf8 "Hadoop 程式編譯")
+
+
