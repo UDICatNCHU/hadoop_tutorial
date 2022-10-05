@@ -63,8 +63,7 @@ source .bashrc
 [![IMAGE ALT TEXT](http://img.youtube.com/vi/GtlcOowVptU/0.jpg)](https://www.youtube.com/watch?v=GtlcOowVptU "Unity Snake Game")
 
 
-[[!上述的操作如果不夠清楚，可觀看下面的影片檔說明]:
-https://youtu.be/KP4E2E2yuOw]
+[[!上述的操作如果不夠清楚，可觀看下面的影片檔說明](http://img.youtube.com/vi/GtlcOowVptU/0.jpg)](https://youtu.be/KP4E2E2yuOw)
 
 
 
