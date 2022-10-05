@@ -60,6 +60,15 @@ export CLASSPATH=.:$HADOOP_HOME/share/hadoop/common/hadoop-common-2.7.7.jar:$HAD
 source .bashrc
 ```
 
+
+上述也可參酌下面的影片檔說明：
+[![Final video of fixing issues in your code in VS Code]
+(https://img.youtube.com/vi/JLMbpiywVxQ/maxresdefault.jpg)]
+(https://www.youtube.com/watch?v=JLMbpiywVxQ)
+https://youtu.be/KP4E2E2yuOw
+
+
+
 # HDFS (Hadoop Distributed File System 基本操作):
 
 * 瀏覽HDFS內容
