@@ -62,6 +62,7 @@ source .bashrc
 
 
 ### 上述如果不清楚的話，可以觀看下面的影片說明：
+https://youtu.be/KP4E2E2yuOw 
 [![IMAGE ALT TEXT](https://i9.ytimg.com/vi/KP4E2E2yuOw/mq1.jpg?sqp=CPDA85kG&rs=AOn4CLAQyh9Z_UnYxB1bDpo4NVHaxK_d_A)](https://youtu.be/KP4E2E2yuOw "Hadoop操作")
 
 
