@@ -1,9 +1,11 @@
 # HadoopTutorial
 
 
-我所建置的Hadoop機器：
+上課所建置的Hadoop機器：
   http://140.120.182.143:3000/cluster
 
+
+## 如果你是在校外連線進來hadoop Cluster，請觀看下列VPN設定說明。如果你在校內，請直接跳過此部分。
 VPN: https://cc.nchu.edu.tw/sslvpn/
 因為機器限制只有學校IP才能連進來，不在學校的同學請使用學校VPN連線
 
@@ -15,7 +17,7 @@ VPN連線方式:
 3. 點選開始 ![](https://cc.nchu.edu.tw/sslvpn/images/win_2.jpg)
 4. 照網頁指示安裝PulseSecure軟體後就可連線，其他詳細資訊可參考 https://cc.nchu.edu.tw/sslvpn/ 安裝說明
 
-登入方式：
+## 登入方式：
 ```shell
 ssh hduser@140.120.182.143 -p 1000
 ```
