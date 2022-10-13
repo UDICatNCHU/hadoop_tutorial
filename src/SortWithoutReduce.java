@@ -10,41 +10,37 @@ import org.apache.hadoop.mapreduce.lib.input.TextInputFormat;
 import org.apache.hadoop.mapreduce.lib.output.FileOutputFormat;
 import org.apache.hadoop.mapreduce.lib.output.TextOutputFormat;
         
-public class TrueSum {
+public class SortWithoutReduce {
         
- public static class Map extends Mapper<LongWritable, Text, Text, LongWritable> {
+ public static class Map extends Mapper<LongWritable, Text, IntWritable, Text> {
     public void map(LongWritable key, Text value, Context context) throws IOException, InterruptedException {
         String line = value.toString();
         StringTokenizer tokenizer = new StringTokenizer(line);
         while (tokenizer.hasMoreTokens()) {
             String token = tokenizer.nextToken();
-            context.write(new Text("whatever you like"), new LongWritable(Integer.parseInt(token)));
+            context.write(new IntWritable(Integer.parseInt(token)), new Text());
         }
     }
  } 
         
- public static class Reduce extends Reducer<Text, LongWritable, Text, LongWritable> {
+ public static class Reduce extends Reducer<IntWritable, Text, IntWritable, Text> {
 
-    public void reduce(Text key, Iterable<LongWritable> values, Context context) 
+    public void reduce(IntWritable key, Iterable<Text> values, Context context) 
       throws IOException, InterruptedException {
-        long sum = 0;
-        for (LongWritable val : values) {
-            sum += val.get();
-        }
-        context.write(key, new LongWritable(sum));
+        context.write(key, new Text());
     }
  }
         
  public static void main(String[] args) throws Exception {
     Configuration conf = new Configuration();
         
-    Job job = new Job(conf, "wordcount");
+    Job job = new Job(conf, "sort");
     
-    job.setOutputKeyClass(Text.class);
-    job.setOutputValueClass(LongWritable.class);
+    job.setOutputKeyClass(IntWritable.class);
+    job.setOutputValueClass(Text.class);
         
     job.setMapperClass(Map.class);
-    job.setReducerClass(Reduce.class);
+    //job.setReducerClass(Reduce.class);
     job.setJarByClass(WordCount.class);
         
     job.setInputFormatClass(TextInputFormat.class);
